@@ -1,0 +1,56 @@
+body{
+    background-color:$color_body;
+    background-image: url("../img/fond.jpeg"); 
+}
+h1{
+    background-color: $color_titre-bg;
+    color: $color_titre-text;
+   
+}
+.col1{
+    background-color: $color_col1-bg;
+}
+#mot{
+background-color:rgb(242, 19, 19); 
+}
+#indice{
+    background-color: rgb(153, 137, 231);;
+}
+
+.col2{
+    background-color: $color_col2-bg;
+    
+}
+
+#clavier{
+    background-color: rgb(109, 95, 95);
+    margin: 2px;
+    padding: 15px;
+    border-radius: 10px;
+
+ }
+
+.btn-clavier {
+
+    border-color: #285e8e; /*set the color you want here*/
+    border-width: 2px;
+    width:100%;
+
+    background-color: rgb(238, 93, 175);
+    color: black;
+    &:hover{
+        background-color:rgb(37, 241, 190);
+        
+    }
+    &--gris{
+        background-color: rgb(101, 96, 99);
+    }
+}
+#mot td {
+    padding: 3px;
+    width: 18px;
+    font-weight: bold;
+    font-size: 1.7em;
+    text-align: center;
+}
+

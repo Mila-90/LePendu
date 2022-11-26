@@ -1,0 +1,16 @@
+{
+  "name": "lependu",
+  "version": "1.0.0",
+  "description": "jeu du pendu",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss:./css/lependu.css --style expanded",
+    "prefix": "postcss ./css/lependu.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "author": "Monique Garcia Dutaitre",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

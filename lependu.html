@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Le jeux du pendu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link href="./css/lependu.css" rel="stylesheet">
+
+</head>
+
+<body onload="init()">
+
+
+  <nav></nav>
+  <main>
+    <h1 class="display-1  text-center">Le pendu</h1>
+    <p class="text-center">Text explication du jeu</p>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 col1">col1
+            <div class="col-sm-3 mx-auto mt-5 text-center"></div>
+            <div id="mot"> 
+              <table id="mot">
+                <tr id="mot-tr"></tr>
+              </table>
+            </div>
+            <div id="indice">Indice</div>
+            <div id="textMsg">Texte</div>
+            <div id="pendu"><img id="imgPendu" src="./img/pendu0.gif" alt="premiere image du pendu"> </div>
+          </div>
+
+          <div class="col-12 col-md-4 text-center ">col2
+            <div id="clavier">
+              <div class="container ">
+                <div class="row">
+                  <div class="col"> <button id="btnA" class="btn btn-clavier" onclick="clavier('A')">A</button></div>
+                  <div class="col"> <button id="btnB" class="btn btn-clavier" onclick="clavier('B')">B</button></div>
+                  <div class="col"> <button id="btnC" class="btn btn-clavier" onclick="clavier('C')">C</button></div>
+                  <div class="col"> <button id="btnD" class="btn btn-clavier" onclick="clavier('D')">D</button></div>
+                </div>
+                <div class="row">
+                  <div class="col"> <button id="btnE" class="btn btn-clavier" onclick="clavier('E')">E</button></div>
+                  <div class="col"> <button id="btnF" class="btn btn-clavier" onclick="clavier('F')">F</button></div>
+                  <div class="col"> <button id="btnG" class="btn btn-clavier" onclick="clavier('G')">G</button></div>
+                  <div class="col"> <button id="btnH" class="btn btn-clavier" onclick="clavier('H')">H</button></div>
+                </div>
+                <div class="row">
+                  <div class="col"> <button id="btnI" class="btn btn-clavier" onclick="clavier('I')">I</button></div>
+                  <div class="col"> <button id="btnJ" class="btn btn-clavier" onclick="clavier('J')">J</button></div>
+                  <div class="col"> <button id="btnK" class="btn btn-clavier" onclick="clavier('K')">K</button></div>
+                  <div class="col"> <button id="btnL" class="btn btn-clavier" onclick="clavier('L')">L</button></div>
+                </div>
+                <div class="row">
+                  <div class="col"> <button id="btnM" class="btn btn-clavier" onclick="clavier('M')">M</button></div>
+                  <div class="col"> <button id="btnN" class="btn btn-clavier" onclick="clavier('N')">N</button></div>
+                  <div class="col"> <button id="btnO" class="btn btn-clavier" onclick="clavier('O')">O</button></div>
+                  <div class="col"> <button id="btnP" class="btn btn-clavier" onclick="clavier('P')">P</button></div>
+                </div>
+                <div class="row">
+                  <div class="col"> <button id="btnQ" class="btn btn-clavier" onclick="clavier('Q')">Q</button></div>
+                  <div class="col"> <button id="btnR" class="btn btn-clavier" onclick="clavier('R')">R</button></div>
+                  <div class="col"> <button id="btnS" class="btn btn-clavier" onclick="clavier('S')">S</button></div>
+                  <div class="col"> <button id="btnT" class="btn btn-clavier" onclick="clavier('T')">T</button></div>
+                </div>
+                <div class="row">
+                  <div class="col"> <button id="btnU" class="btn btn-clavier" onclick="clavier('U')">U</button></div>
+                  <div class="col"> <button id="btnV" class="btn btn-clavier" onclick="clavier('V')">V</button></div>
+                  <div class="col"> <button id="btnW" class="btn btn-clavier" onclick="clavier('W')">W</button></div>
+                  <div class="col"> <button id="btnX" class="btn btn-clavier" onclick="clavier('X')">X</button></div>
+                </div>
+                <div class="row">
+                  <div class="col"> <button id="btnY" class="btn btn-clavier" onclick="clavier('Y')">Y</button></div>
+                  <div class="col"> <button id="btnZ" class="btn btn-clavier" onclick="clavier('Z')">Z</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="./js/lependu.js"></script>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->

@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(187, 152, 235);
+  background-image: url("../img/fond.jpeg");
+}
+
+h1 {
+  background-color: rgb(51, 0, 255);
+  color: rgb(241, 239, 247);
+}
+
+.col1 {
+  background-color: rgb(198, 239, 17);
+}
+
+#mot {
+  background-color: rgb(242, 19, 19);
+}
+
+#indice {
+  background-color: rgb(153, 137, 231);
+}
+
+.col2 {
+  background-color: rgb(162, 16, 16);
+}
+
+#clavier {
+  background-color: rgb(109, 95, 95);
+  margin: 2px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.btn-clavier {
+  border-color: #285e8e; /*set the color you want here*/
+  border-width: 2px;
+  width: 100%;
+  background-color: rgb(238, 93, 175);
+  color: black;
+}
+.btn-clavier:hover {
+  background-color: rgb(37, 241, 190);
+}
+.btn-clavier--gris {
+  background-color: rgb(101, 96, 99);
+}
+
+#mot td {
+  padding: 3px;
+  width: 18px;
+  font-weight: bold;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=lependu.css.map */
